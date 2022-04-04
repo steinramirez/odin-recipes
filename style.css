@@ -1,0 +1,136 @@
+body
+{
+    background-color: rgb(238, 177, 36);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 100%;
+    width: auto;
+   
+}
+footer{
+    background-color: gray;
+   font-size: small;
+   font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    text-align: center;
+
+   }
+
+.container
+{
+    position: relative;
+    opacity:0.5;
+    width: 100%;
+}
+
+a{
+    text-align: center;
+    margin-top: 550px;
+}
+a:link{
+    color: rgb(175, 108, 41);
+    text-decoration:none;
+}
+a:visited{
+    color:aliceblue;
+    text-decoration:none;
+}
+a:hover{
+    color:rgb(242, 217, 79);
+    text-decoration:none;
+    cursor:pointer;
+}
+.navbar{
+   text-align: center;
+   width: 100%;
+   height: 30px;
+   color: white;
+   
+   background-color: rgb(247, 183, 45);
+   border-radius: 20px;
+}
+nav{
+    padding-top: 5px;
+}
+/*.headertext{
+    position: absolute;
+  top: 12px;
+  left: 35%;
+}*/
+.quarter{
+    position:fixed;
+    top: 10%;
+    left: 10%;
+    max-width: 100%;
+    max-height: 100%;
+}
+/*.listtext{
+    position: absolute;
+  top: 65px;
+  left: 24%;
+}*/
+div
+{
+text-decoration: none;
+}
+.list-unordered
+{
+    margin-left:30px;
+}
+
+ul
+{
+    text-align: left;
+    margin-left: -10%;
+    list-style-image: url("../odin-recipes/recipes/images/cookiecolor.svg");
+    font-size: medium;
+
+   
+}
+li
+{
+margin-top: 10px;
+
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+
+    text-decoration: none;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 110%;
+    text-decoration: none;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent black transparent transparent;
+    text-decoration: none;
+    font-size: small;
+  }
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    text-decoration: none;
+    font-size: small;
+  }
